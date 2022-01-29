@@ -28,6 +28,8 @@ rec {
       RUSTUP_HOME = toString ./.rustup;
       CARGO_HOME = toString ./.cargo;
 
+      RUSTUP_TOOLCHAIN = rustupToolchain;
+
       shellHook = ''
         export PATH=$PATH:${CARGO_HOME}/bin
 

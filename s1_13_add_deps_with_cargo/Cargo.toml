@@ -1,0 +1,11 @@
+[package]
+name = "s1_10_creating_project_w_cargo"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# We do not mention the patch version so that
+# we get the latest patches.
+rand = "0.5"
